@@ -1,0 +1,25 @@
+{
+  "name": "k8s-opensearch-api",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, OpenSearch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "OpenSearch"
+  ],
+  "author": "dxu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0"
+  }
+}
